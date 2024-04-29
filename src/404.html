@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="404.css">
+</head>
+<body>
+       <header>
+        <iframe src="header.html" frameborder="0" scrolling="no" width="100%" height="80px" style="background-color: rgb(8, 134, 146);"></iframe>
+    </header>
+
+        <div class="not-found-container">
+        <h2>404 Not Found</h2>
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+
+       <div class="footer"><iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="auto"></iframe></div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
